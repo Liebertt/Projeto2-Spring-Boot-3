@@ -3,7 +3,7 @@ Aprendendo boas práticas na API
 <br>
 <br>
 <b>Instrutor do curso: </b>
-<p>Luan Alves</p>
+<p>Rodrigo da Silva Ferreira Caneppele</p>
 <br>
 <b>Assuntos que serão abordados no curso: </b>
 
