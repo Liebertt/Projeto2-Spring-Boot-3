@@ -44,19 +44,21 @@ Aprendendo boas práticas na API
   <li>Implementar o processo de autenticação na API, de maneira Stateless, utilizando as classes e configurações do Spring Security.</li>
   </ul>
   <br>
-  <li><b><i>Inserindo estilos</i></b></li>
+  <li><b><i>JSON Web Token</i></b></li>
   <ul>
-  <li>Aplicar imagens de forma responsiva em um projeto unindo classes de Breakpoint e Display do Bootstrap;</li>
-  <li>Consultar o tema de cores que o Bootstrap oferece e implementar no projeto como background;</li>
-  <li>Analisar limitações do Bootstrap na oferta de cores, e resolveu a limitação recorrendo ao CSS.</li>
+  <li>Adicionar a biblioteca Auth0 java-jwt como dependência do projeto;</li>
+  <li>Utilizar essa biblioteca para realizar a geração de um token na API;</li>
+  <li>Injetar uma propriedade do arquivo application.properties em uma classe gerenciada pelo Spring, utilizando a anotação @Value;</li>
+  <li>Devolver um token gerado na API quando um usuário se autenticar nela.</li>
   </ul>
   <br>
-  <li><b><i>Acessibilidade com Bootstrap</i></b></li>
+  <li><b><i>Controle de Acesso</i></b></li>
   <ul>
-  <li>Refatorar o código para tornar o projeto acessível para leitores de tela;</li>
-  <li>Conheceu a documentação de acessibilidade do Bootstrap;</li>
-  <li>Implementou classes de acessibilidade do Bootstrap no projeto;</li>
-  <li>Finalizou o projeto Meteora.</li>
+  <li>Funcionam os Filters em uma requisição;</li>
+  <li>Implementar um filter criando uma classe que herda da classe OncePerRequestFilter, do Spring;</li>
+  <li>Utilizar a biblioteca Auth0 java-jwt para realizar a validação dos tokens recebidos na API;</li>
+  <li>Realizar o processo de autenticação da requisição, utilizando a classe SecurityContextHolder, do Spring;</li>
+  <li>Liberar e restringir requisições, de acordo com a URL e o verbo do protocolo HTTP.</li>
   </ul>
 </ul>
 
